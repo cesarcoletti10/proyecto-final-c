@@ -1,0 +1,130 @@
+@media (max-width: 1300px) {
+
+
+    .header {
+      height: 60px;
+    }
+  
+    .logo {
+      font-size: 25px;
+      padding: 0 20px;
+      line-height: 60px;
+    }
+  
+    .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      background-color: rgba(0,92,123,255);
+      position: fixed;
+      top: 60px;
+      width: 100%;
+      padding: 20px 0;
+      height: calc(100% - 60px);
+      overflow-y: auto;
+      left: 100%;
+      transition: left 0.3s;
+      
+    }
+  
+    .nav-menu-item {
+      line-height: 70px;
+    }
+  
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+      background: none;
+      color: #83c5f7;
+    }
+  
+    .nav-toggle {
+      display: block;  
+    }
+  
+    .nav-menu_visible {
+      left: 0;
+    }
+  
+    .nav-toggle:focus:not(:focus-visible) {
+      outline: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .cards-container {
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 768px) {
+    .faq-container {
+      padding: 10px;
+    }
+  }
+  
+/* Estilos para pantallas de hasta 768px de ancho */
+@media (max-width: 768px) {
+    .section-title {
+      font-size: 32px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width:1500px ) {
+  
+    .section-title {
+  
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+  
+  }
+  
+  /* Estilos para pantallas de hasta 480px de ancho */
+  @media (max-width: 480px) {
+    .section-title {
+      font-size: 24px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 6px;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .domain-info {
+      flex-basis: 100%;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .hosting-plans .plan {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hosting-plans .plan {
+      width: 100%;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .testimonial img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .testimonial img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
