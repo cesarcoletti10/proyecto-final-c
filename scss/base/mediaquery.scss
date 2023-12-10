@@ -86,7 +86,6 @@
   
   }
   
-  /* Estilos para pantallas de hasta 480px de ancho */
   @media (max-width: 480px) {
     .section-title {
       font-size: 24px;
@@ -125,6 +124,13 @@
     .testimonial img {
       width: 100px;
       height: 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .textitos > div {
+      width: calc(50% - 20px);
+      margin-right: 0;
     }
   }
   
